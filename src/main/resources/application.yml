@@ -1,0 +1,10 @@
+spring:
+#  redis:
+#    host: localhost
+#    password:
+  security:
+    oauth2:
+      jwt:
+        assign-key: test_key
+server:
+  port: 8600
